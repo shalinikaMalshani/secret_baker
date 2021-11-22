@@ -27,14 +27,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<<<<<<< HEAD
+
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
 		</dependency>
-=======
->>>>>>> f8715f500b2243c54662605911877283eaa77f78
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -46,10 +44,7 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
-<<<<<<< HEAD
 			<version>8.0.25</version>
-=======
->>>>>>> f8715f500b2243c54662605911877283eaa77f78
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -59,11 +54,7 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
-<<<<<<< HEAD
-			<version>5.8.1</version>
-=======
 			<version>RELEASE</version>
->>>>>>> f8715f500b2243c54662605911877283eaa77f78
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
