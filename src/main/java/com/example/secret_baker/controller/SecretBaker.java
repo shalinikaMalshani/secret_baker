@@ -8,7 +8,22 @@ public class SecretBaker {
 
     @GetMapping("/home")
     public String home() {
-       return "HelloWorld";
+        return "HelloWorld";
+    }
+
+    @GetMapping("/onlineMenu")
+    public String onlineMenu() {
+        return "onlineMenu";
+    }
+
+    @GetMapping("/onlineFoodItem")
+    public String onlineFoodItem() {
+        return "foodItem";
+    }
+
+    @GetMapping("/onlineMenuNew")
+    public String onlineMenuNew() {
+        return "onlineMenuNew";
     }
 
 
