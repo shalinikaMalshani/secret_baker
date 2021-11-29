@@ -42,7 +42,7 @@ body{
     opacity: 0;
     cursor: pointer;
 }
-.quickView-title:hover{
+.product-thumb-img:hover .quickView-title{
     opacity: 1;
 }
 .product-thumb-title{
@@ -173,8 +173,8 @@ body{
 
 .goToProduct-btn{
     width: 150px;
-    background-color: red;
-    color: white;
+    background: red;
+    /*color: white;*/
     border-radius: 5px;
     border: none;
     padding:5px;
@@ -182,8 +182,8 @@ body{
 }
 
 @media screen and(max-width:1000px){
-    #popup .goToProduct-btn .product-btn{
-        background-color:green;
+    .goToProduct-btn a{
+       background: green;
     }
 }
 .product-btn{

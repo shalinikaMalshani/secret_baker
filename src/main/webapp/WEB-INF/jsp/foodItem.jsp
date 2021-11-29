@@ -12,12 +12,12 @@
 </head>
 <body>
 <h1>Online Order</h1>
-<%--<span id="result"></span>--%>
+<span id="result"></span>
 <script>
-// document.getElementById('result').innerHTML=localStorage.getItem("product-img");
+ document.getElementById("result").innerHTML=localStorage.getItem("product-name");
 // document.getElementById('result').innerHTML=localStorage.getItem("product-name");
-var retrievedObject=localStorage.getItem("product-name");
-console.log('retrievedObject: ', JSON.parse(retrievedObject));
+// var retrievedObject=localStorage.getItem("product-name");
+// console.log('retrievedObject: ', JSON.parse(retrievedObject));
 </script>
 </body>
 </html>
