@@ -69,5 +69,16 @@ public class SecretBaker {
         return "SBonlineMenu";
     }
 
+    @GetMapping("/foodItemsCakes")
+    public String getAllFoodItemCakes( Model model){
+        model.addAttribute("AllFoodItems",foodItemBO.getAllFoodItems());
+        return "AllCakes";
+    }
+    @GetMapping("/foodItemsCupcakes")
+    public String getAllFoodItemCupcakes( Model model){
+        model.addAttribute("AllFoodItems",foodItemBO.getAllFoodItems());
+        return "Cupcakes";
+    }
+
 
 }
